@@ -1,0 +1,17 @@
+[project]
+name = "naive-rag-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.135.2",
+    "langchain-community>=0.4.1",
+    "langchain-google-genai>=4.2.1",
+    "langchain-postgres>=0.0.17",
+    "pdfminer-six>=20260107",
+    "pypdf>=6.9.2",
+    "python-dotenv>=1.2.2",
+    "unstructured[pdf]>=0.22.6",
+    "uvicorn>=0.42.0",
+]
